@@ -12,6 +12,7 @@
 		C4921841228A594C007AC131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4921840228A594C007AC131 /* Assets.xcassets */; };
 		C4921844228A594C007AC131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4921842228A594C007AC131 /* LaunchScreen.storyboard */; };
 		C492184C228A5AE5007AC131 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C492184B228A5AE4007AC131 /* PhotoTableViewController.swift */; };
+		C492184E228A5B75007AC131 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C492184D228A5B75007AC131 /* PhotoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C4921843228A594C007AC131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4921845228A594C007AC131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C492184B228A5AE4007AC131 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
+		C492184D228A5B75007AC131 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C4921839228A594B007AC131 /* AppDelegate.swift */,
 				C492183D228A594B007AC131 /* Main.storyboard */,
+				C492184D228A5B75007AC131 /* PhotoTableViewCell.swift */,
 				C492184B228A5AE4007AC131 /* PhotoTableViewController.swift */,
 				C4921840228A594C007AC131 /* Assets.xcassets */,
 				C4921842228A594C007AC131 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				C492184C228A5AE5007AC131 /* PhotoTableViewController.swift in Sources */,
 				C492183A228A594B007AC131 /* AppDelegate.swift in Sources */,
+				C492184E228A5B75007AC131 /* PhotoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
