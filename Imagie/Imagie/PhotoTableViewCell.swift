@@ -10,6 +10,11 @@ import UIKit
 
 class PhotoTableViewCell: UITableViewCell {
 
- 
-
+    // MARK: - Properties
+    
+    @IBOutlet weak var photoImageView: UIImageView!
+    
+    
+    @IBOutlet weak var photoNameLabel: UILabel!
+    
 }

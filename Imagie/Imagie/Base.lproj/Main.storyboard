@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="photoCell" rowHeight="527" id="4fm-WR-p3B">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="photoCell" rowHeight="527" id="4fm-WR-p3B" customClass="PhotoTableViewCell" customModule="Imagie" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="527"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4fm-WR-p3B" id="73K-n0-pIg">
@@ -59,6 +59,10 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="hnH-HC-Dw0" secondAttribute="trailing" constant="5" id="ktR-Ib-pLu"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="photoImageView" destination="5eu-BZ-Fg0" id="tZc-Uk-Em8"/>
+                                    <outlet property="photoNameLabel" destination="JRQ-3L-cmd" id="lNk-ru-eWa"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
