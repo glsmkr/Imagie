@@ -68,10 +68,10 @@ class PhotoController {
                 completion(error)
                 return
             }
-            }.resume()
+        }.resume()
         
     }
-
+    
     
     
     
