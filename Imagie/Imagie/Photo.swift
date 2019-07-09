@@ -14,7 +14,7 @@ struct Photo: Codable {
 }
 
 struct ImageURLs: Codable {
-    let thumb: String
+    let thumb: String  // "www.djdjdodsosods.com"
     let small: String
 }
 

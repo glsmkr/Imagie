@@ -15,6 +15,7 @@
 		C492184E228A5B75007AC131 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C492184D228A5B75007AC131 /* PhotoTableViewCell.swift */; };
 		C4921850228A5CF9007AC131 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C492184F228A5CF9007AC131 /* Photo.swift */; };
 		C4921852228A5E68007AC131 /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4921851228A5E68007AC131 /* PhotoController.swift */; };
+		C4921854228B1557007AC131 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4921853228B1557007AC131 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C492184D228A5B75007AC131 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
 		C492184F228A5CF9007AC131 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		C4921851228A5E68007AC131 /* PhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
+		C4921853228B1557007AC131 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				C4921839228A594B007AC131 /* AppDelegate.swift */,
 				C492183D228A594B007AC131 /* Main.storyboard */,
+				C4921853228B1557007AC131 /* CardView.swift */,
 				C492184D228A5B75007AC131 /* PhotoTableViewCell.swift */,
 				C492184F228A5CF9007AC131 /* Photo.swift */,
 				C4921851228A5E68007AC131 /* PhotoController.swift */,
@@ -148,6 +151,7 @@
 				C4921850228A5CF9007AC131 /* Photo.swift in Sources */,
 				C492184C228A5AE5007AC131 /* PhotoTableViewController.swift in Sources */,
 				C492183A228A594B007AC131 /* AppDelegate.swift in Sources */,
+				C4921854228B1557007AC131 /* CardView.swift in Sources */,
 				C492184E228A5B75007AC131 /* PhotoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -52,7 +52,9 @@ class PhotoTableViewController: UITableViewController, UISearchBarDelegate {
         
         guard let url = URL(string: photo.urls.small), let imageData = try? Data(contentsOf: url) else { return cell }
         
+        
         cell.photoImageView?.image = UIImage(data: imageData)
+    
 
         return cell
     }
